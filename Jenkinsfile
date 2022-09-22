@@ -1,15 +1,2 @@
-pipeline {
-  agent any
-  stages {
-    stage('version') {
-      steps {
-        sh 'pwsh --version'
-      }
-    }
-    stage('hello') {
-      steps {
-        sh 'pwsh hello.ps1'
-      }
-    }
-  }
-}
+@Library('My-Shared-Library') _
+javaBuild 'https://github.com/satyaki726/jenkins-example-scripts-powershell.git'
