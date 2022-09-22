@@ -1,2 +1,2 @@
 @Library('My-Shared-Library') _
-javaBuild 'https://github.com/satyaki726/jenkins-example-scripts-powershell.git'
+powerShellBuild 'https://github.com/satyaki726/jenkins-example-scripts-powershell.git'
